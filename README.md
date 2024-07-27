@@ -7,13 +7,14 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 
 <div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: 10px; border-radius: 5px;">
   <pre id="code-block" style="margin: 0; font-family: monospace;">
-###### 
+
+
+## 
     @article{islam2023iterative,
       title={Flexible Graph Convolutional Network for 3D Human Pose Estimation},
       author={Shahjahan, Abu Taib Mohammed and Hamza, A Ben},
       conference={The 35th British Machine Vision Conference 2024},
-      year={2024},
-      
+      year={2024},      
     }
   </pre>
 </div>
