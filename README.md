@@ -7,8 +7,6 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 
 <div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: 10px; border-radius: 5px;">
   <pre id="code-block" style="margin: 0; font-family: monospace;">
-
-
 ## 
     @article{islam2023iterative,
       title={Flexible Graph Convolutional Network for 3D Human Pose Estimation},
@@ -18,10 +16,6 @@ This repository contains the official PyTorch implementation of the Iterative Gr
     }
   </pre>
 </div>
-
-
-
-
 
 <div align="center">
   <img src="https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Network_Architechture.png" alt="Network_Architechture" width="800" height="300">
