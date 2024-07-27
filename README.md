@@ -2,7 +2,6 @@
 # Flexible Graph Convolutional Network for 3D Human Pose Estimation [The 35th British Machine Vision Conference 2024] 
 This repository contains the official PyTorch implementation of the Iterative Graph Filtering Network for 3D Human Pose Estimation authored by Abu Taib Mohammed Shahjahan and A. Ben Hamza. If you discover our code to be valuable for your research, kindly consider including the following citation:
 
-
 <br>
 
 <div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: 10px; border-radius: 5px;">
