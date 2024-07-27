@@ -13,7 +13,8 @@ This repository contains the official PyTorch implementation of the Iterative Gr
       conference={The 35th British Machine Vision Conference 2024},
       year={2024},      
     }
-
+    </pre>
+</div>
 <div align="center">
   <img src="https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Network_Architechture.png" alt="Network_Architechture" width="800" height="300">
 </div>
