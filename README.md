@@ -1,7 +1,8 @@
 # Flex-GCN
 # Flexible Graph Convolutional Network for 3D Human Pose Estimation [The 35th British Machine Vision Conference 2024] 
 
-![Network_Architechture](https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Network_Architechture.png width="100%" height="600px")
+
+<img src="https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Network_Architechture.png" alt="Network_Architechture" width="600" height="400">
 
 The PyTorch implementation for Flex-GCN
 
