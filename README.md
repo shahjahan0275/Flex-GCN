@@ -18,16 +18,6 @@ This repository contains the official PyTorch implementation of the Iterative Gr
   <button onclick="copyToClipboard()" style="position: absolute; right: 10px; top: 10px; border: none; background: none; cursor: pointer;">📋</button>
 </div>
 
-<script>
-  function copyToClipboard() {
-    var text = document.getElementById("code-block").innerText;
-    navigator.clipboard.writeText(text).then(function() {
-      alert("Copied to clipboard: " + text);
-    }, function(err) {
-      console.error("Could not copy text: ", err);
-    });
-  }
-</script>
 
 
 
