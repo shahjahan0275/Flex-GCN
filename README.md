@@ -8,13 +8,11 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 <div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: 10px; border-radius: 5px;">
   <pre id="code-block" style="margin: 0; font-family: monospace;">
   @article{islam2023iterative,
-    title={Iterative graph filtering network for 3D human pose estimation},
-    author={Islam, Zaedul and Hamza, A Ben},
-    journal={Journal of Visual Communication and Image Representation},
-    volume={95},
-    pages={103908},
-    year={2023},
-    publisher={Elsevier}
+    title={Flexible Graph Convolutional Network for 3D Human Pose Estimation},
+    author={Shahjahan, Abu Taib Mohammed and Hamza, A Ben},
+    conference={The 35th British Machine Vision Conference 2024},
+    year={2024},
+    
   }
   </pre>
 </div>
