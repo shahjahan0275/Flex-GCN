@@ -4,8 +4,7 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 
 <br> 
 <div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: -5px; border-radius: -5px;">
-  <pre id="code-block" style="margin: 0; font-family: monospace; background-color: #f5f5f5; padding: 0;">    
-    
+  <pre id="code-block" style="margin: 0; font-family: monospace; background-color: #f5f5f5; padding: 0;">     
 ###### 
     @article{islam2023iterative,
       title={Flexible Graph Convolutional Network for 3D Human Pose Estimation},
