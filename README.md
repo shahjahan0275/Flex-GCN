@@ -41,7 +41,7 @@ Ours 	47.1mm 	38.7mm
 
 |      Method       |  MPJPE (P1)   | PA-MPJPE (P2) |
 | ------------------| ------------- | ------------- |
-|      [SemGCN](https://github.com/garyzhao/SemGCN)       |    57.6mm     |      -        |
+|      [SemGCN](https://github.com/garyzhao/SemGCN)       |    57.6mm     |         -        |
 |    [High-order](https://github.com/ZhimingZo/HGCN)     |    55.6mm     |    43.7mm     |
 |     [HOIF-Net](https://github.com/happyvictor008/Higher-Order-Implicit-Fairing-Networks-for-3D-Human-Pose-Estimation)      |    54.8mm     |    42.9mm     |
 | [Weight Unsharing](https://github.com/tamasino52/Any-GCN)  |    52.4mm     |    41.2mm     |
