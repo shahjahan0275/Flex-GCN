@@ -1,5 +1,6 @@
 # Flex-GCN
-# Flexible Graph Convolutional Network for 3D Human Pose Estimation [The 35th British Machine Vision Conference 2024] 
+# Flexible Graph Convolutional Network for 3D Human Pose Estimation [The 35th British Machine Vision Conference 2024]
+---
 This repository contains the official PyTorch implementation of the Iterative Graph Filtering Network for 3D Human Pose Estimation authored by Abu Taib Mohammed Shahjahan and A. Ben Hamza. If you discover our code to be valuable for your research, kindly consider including the following citation:
  
 <div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: 0px; border-radius: 0px;">
@@ -16,7 +17,7 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 </div>
 
 ### Network Architecture
-
+---
 <div align="center">
   <img src="https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Network_Architechture.png" alt="Network_Architechture" width="800" height="300">
 </div>
@@ -25,19 +26,11 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 The PyTorch implementation for Flex-GCN
 
 ### Qualitative and quantitative results
-
+---
 ![Greeting](https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Greeting.gif)
 
 ### Results on Human3.6M
-
-SemGCN 	57.6mm 	-
-High-order GCN 	55.6mm 	43.7mm
-HOIF-Net 	54.8mm 	42.9mm
-Weight Unsharing 	52.4mm 	41.2mm
-MM-GCN 	51.7mm 	40.3mm
-Modulated GCN 	49.4mm 	39.1mm
-Ours 	47.1mm 	38.7mm
- 	 	
+---	 	
 
 |      Method       |  MPJPE (P1)   | PA-MPJPE (P2) |
 | ------------------| ------------- | ------------- |
@@ -50,10 +43,11 @@ Ours 	47.1mm 	38.7mm
 |       Ours        |    46.9mm     |    38.6mm     |
 
 ## Quick Start
+---
 This repository is built upon Python v3.8 and Pytorch v1.8.0 on Ubuntu 20.04.4 LTS. All experiments are conducted on a single NVIDIA RTX 3070 GPU with 8GB of memory.
 
 ## Dependencies
-
+---
 Please make sure you have the following dependencies installed:
 
     -PyTorch >= 1.8.0
@@ -61,6 +55,7 @@ Please make sure you have the following dependencies installed:
     -Matplotlib
 
 ## Dataset
+---
 Our model is evaluated on [Human3.6M](http://vision.imar.ro/human3.6m/description.php) and [MPI-INF-3DHP](http://vision.imar.ro/human3.6m/description.php) datasets. Please put the datasets in <span style="background-color: #f0f0f0">./dataset</span> directory.
 
 ## Human3.6M
@@ -70,6 +65,7 @@ Our model is evaluated on [Human3.6M](http://vision.imar.ro/human3.6m/descriptio
 We set up the MPI-INF-3DHP dataset in the same way as [PoseAug](https://github.com/jfzhang95/PoseAug). Please refer to [DATASETS.md](https://github.com/jfzhang95/PoseAug/blob/main/DATASETS.md) to prepare the dataset file.
 
 # Training from Scratch
+---
 <div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: 0px; border-radius: 0px;">
   <pre id="code-block" style="margin: 0; font-family: monospace; background-color: #f5f5f5; padding: 0;">
     
@@ -88,6 +84,7 @@ To initiate the training of our model, utilizing the ground truth 2D keypoints e
 </div>
 
 # Evaluation
+---
 # Human3.6M
 To evaluate our model using the detected 2D keypoints (HR-Net) with pose refinement, please run the following command:
 
@@ -110,7 +107,7 @@ To evaluate our model using the ground truth 2D keypoints without incorporating 
 </div>
 
 # Evaluating Our Pre-trained Models
-
+---
 The pre-trained models can be downloaded from Google Drive. Put them in the <span style="background-color: #f0f0f0">./checkpoint/train_result</span> directory.
 
 To evaluate our pre-trained model using the ground truth 2D keypoints, please run:
@@ -123,14 +120,8 @@ To evaluate our pre-trained model using the ground truth 2D keypoints, please ru
   </pre>
 </div>
 
-
-  -python main_graph.py -k gt --beta 0.2 --batchSize 512 --hid_dim 384 --previous_dir './checkpoint/train_result/' --save_dir './checkpoint/test_result/' --save_out_type xyz --gsnet_gcn_reload 1 --module_gsnet_model model_gsnet_gcn_7_eva_xyz_3649.pth --show_protocol2 --nepoch 2
-
-
-
-
-
 # Acknowledgement
+---
 Our code makes references to the following repositories.
 
     -[Modulated GCN](https://github.com/ZhimingZo/Modulated-GCN)
