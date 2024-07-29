@@ -17,7 +17,7 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 </div>
 
 ### Network Architecture
----
+<hr style="border: 1px solid lightgrey;">
 <div align="center">
   <img src="https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Network_Architechture.png" alt="Network_Architechture" width="800" height="300">
 </div>
