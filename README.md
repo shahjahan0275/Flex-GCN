@@ -107,7 +107,7 @@ To evaluate our model using the ground truth 2D keypoints without incorporating 
 
 # Evaluating Our Pre-trained Models
 
-The pre-trained models can be downloaded from Google Drive. Put them in the <span style="background-color: #f0f0f0">./checkpoint/train_result</span> directory.
+The pre-trained models can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1gV2Dzuz3fJah3C56wnPr52-FBJEZuoQM). Put them in the <span style="background-color: #f0f0f0">./checkpoint/train_result</span> directory.
 
 To evaluate our pre-trained model using the ground truth 2D keypoints, please run:
 
