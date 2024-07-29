@@ -1,6 +1,6 @@
 # Flex-GCN
 # Flexible Graph Convolutional Network for 3D Human Pose Estimation [The 35th British Machine Vision Conference 2024]
-*********
+
 This repository contains the official PyTorch implementation of the Iterative Graph Filtering Network for 3D Human Pose Estimation authored by Abu Taib Mohammed Shahjahan and A. Ben Hamza. If you discover our code to be valuable for your research, kindly consider including the following citation:
  
 <div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: 0px; border-radius: 0px;">
@@ -17,7 +17,7 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 </div>
 
 ### Network Architecture
-*********
+
 <div align="center">
   <img src="https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Network_Architechture.png" alt="Network_Architechture" width="800" height="300">
 </div>
@@ -26,11 +26,10 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 The PyTorch implementation for Flex-GCN
 
 ### Qualitative and quantitative results
----
+
 ![Greeting](https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Greeting.gif)
 
-### Results on Human3.6M
----	 	
+### Results on Human3.6M 	
 
 |      Method       |  MPJPE (P1)   | PA-MPJPE (P2) |
 | ------------------| ------------- | ------------- |
@@ -43,19 +42,19 @@ The PyTorch implementation for Flex-GCN
 |       Ours        |    46.9mm     |    38.6mm     |
 
 ## Quick Start
----
+
 This repository is built upon Python v3.8 and Pytorch v1.8.0 on Ubuntu 20.04.4 LTS. All experiments are conducted on a single NVIDIA RTX 3070 GPU with 8GB of memory.
 
 ## Dependencies
----
+
 Please make sure you have the following dependencies installed:
 
-    -PyTorch >= 1.8.0
-    -NumPy
-    -Matplotlib
+    - PyTorch >= 1.8.0
+    - NumPy
+    - Matplotlib
 
 ## Dataset
----
+
 Our model is evaluated on [Human3.6M](http://vision.imar.ro/human3.6m/description.php) and [MPI-INF-3DHP](http://vision.imar.ro/human3.6m/description.php) datasets. Please put the datasets in <span style="background-color: #f0f0f0">./dataset</span> directory.
 
 ## Human3.6M
@@ -65,7 +64,7 @@ Our model is evaluated on [Human3.6M](http://vision.imar.ro/human3.6m/descriptio
 We set up the MPI-INF-3DHP dataset in the same way as [PoseAug](https://github.com/jfzhang95/PoseAug). Please refer to [DATASETS.md](https://github.com/jfzhang95/PoseAug/blob/main/DATASETS.md) to prepare the dataset file.
 
 # Training from Scratch
----
+
 <div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: 0px; border-radius: 0px;">
   <pre id="code-block" style="margin: 0; font-family: monospace; background-color: #f5f5f5; padding: 0;">
     
@@ -84,7 +83,7 @@ To initiate the training of our model, utilizing the ground truth 2D keypoints e
 </div>
 
 # Evaluation
----
+
 # Human3.6M
 To evaluate our model using the detected 2D keypoints (HR-Net) with pose refinement, please run the following command:
 
@@ -107,7 +106,7 @@ To evaluate our model using the ground truth 2D keypoints without incorporating 
 </div>
 
 # Evaluating Our Pre-trained Models
----
+
 The pre-trained models can be downloaded from Google Drive. Put them in the <span style="background-color: #f0f0f0">./checkpoint/train_result</span> directory.
 
 To evaluate our pre-trained model using the ground truth 2D keypoints, please run:
@@ -121,12 +120,12 @@ To evaluate our pre-trained model using the ground truth 2D keypoints, please ru
 </div>
 
 # Acknowledgement
----
+
 Our code makes references to the following repositories.
 
-    -[Modulated GCN](https://github.com/ZhimingZo/Modulated-GCN)
-    -[SemGCN](https://github.com/garyzhao/SemGCN)
-    -[PoseAug](https://github.com/jfzhang95/PoseAug)
-    -[VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
+    - [Modulated GCN](https://github.com/ZhimingZo/Modulated-GCN)
+    - [SemGCN](https://github.com/garyzhao/SemGCN)
+    - [PoseAug](https://github.com/jfzhang95/PoseAug)
+    - [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
 
 We thank the authors for sharing their code and kindly request that you also acknowledge their contributions by citing their work.
