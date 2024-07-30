@@ -121,10 +121,9 @@ To evaluate our pre-trained model using the ground truth 2D keypoints, please ru
 # Acknowledgement
 
 Our code makes references to the following repositories.
-
-    - [Modulated GCN](https://github.com/ZhimingZo/Modulated-GCN)
-    - [SemGCN](https://github.com/garyzhao/SemGCN)
-    - [PoseAug](https://github.com/jfzhang95/PoseAug)
-    - [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
+- [Modulated GCN](https://github.com/ZhimingZo/Modulated-GCN)
+- [SemGCN](https://github.com/garyzhao/SemGCN)
+- [PoseAug](https://github.com/jfzhang95/PoseAug)
+- [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
 
 We thank the authors for sharing their code and kindly request that you also acknowledge their contributions by citing their work.
