@@ -1,20 +1,19 @@
 # Flex-GCN
 # Flexible Graph Convolutional Network for 3D Human Pose Estimation [The 35th British Machine Vision Conference 2024]
 
+
 This repository contains the official PyTorch implementation of the Iterative Graph Filtering Network for 3D Human Pose Estimation authored by Abu Taib Mohammed Shahjahan and A. Ben Hamza. If you discover our code to be valuable for your research, kindly consider including the following citation:
+
  
-<div style="position: relative; display: inline-block; background-color: #f5f5f5; padding: 0px; border-radius: 0px;">
-  <pre id="code-block" style="margin: 0; font-family: monospace; background-color: #f5f5f5; padding: 0;">
-    
-###### 
-    @article{shahjahan2024flex-gcn,
-      title={Flexible Graph Convolutional Network for 3D Human Pose Estimation},
-      author={Shahjahan, Abu Taib Mohammed and Hamza, A Ben},
-      conference={The 35th British Machine Vision Conference 2024},
-      year={2024},      
-    }
-  </pre>
-</div>
+ ```
+@article{shahjahan2024flex-gcn,
+   title={Flexible Graph Convolutional Network for 3D Human Pose Estimation},
+   author={Shahjahan, Abu Taib Mohammed and Hamza, A Ben},
+   conference={The 35th British Machine Vision Conference 2024},
+   year={2024},      
+ }
+```
+
 
 ### Network Architecture
 
