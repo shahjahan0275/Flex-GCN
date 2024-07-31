@@ -15,7 +15,7 @@ This repository contains the official PyTorch implementation of the Iterative Gr
 ## Network Architecture
 
 <div align="center">
-  <img src="https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Network_Architechture.png" alt="Network_Architechture" width="800" height="300">
+  <img src="https://github.com/shahjahan0275/Flex-GCN/blob/main/demo/Network_Architechture.png" alt="Network_Architechture" width="600" height="200">
 </div>
 
 
@@ -84,7 +84,7 @@ python main_graph.py -k gt --beta 0.2 --batchSize 512 --hid_dim 384 --previous_d
 
 ## Evaluating Our Pre-trained Models
 
-The pre-trained models can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1gV2Dzuz3fJah3C56wnPr52-FBJEZuoQM). Put them in the <span style="background-color: #f0f0f0">./checkpoint/train_result</span> directory.
+The pre-trained models can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1gV2Dzuz3fJah3C56wnPr52-FBJEZuoQM). Put them in the `./checkpoint/train_result` directory.
 
 To evaluate our pre-trained model using the ground truth 2D keypoints, please run:
 
