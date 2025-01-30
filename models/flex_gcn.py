@@ -11,7 +11,7 @@ torch.autograd.set_detect_anomaly(True)
 
 
 class GraphConvBlockI(nn.Module):
-    def __init__(self, adj, input_dim, output_dim, beta, p_dropout=None, drop_path=0.,layer_scale_init_value=1e-6):
+    def __init__(self, adj, input_dim, output_dim, beta, p_dropout=None):
         super(GraphConvBlockI, self).__init__()
 
         self.gconv = FlexGConv(input_dim, output_dim, adj, beta)
